@@ -1,4 +1,8 @@
 # Rounding functions
+# plyr includes some rounding functions; refer to the following for insight:
+library(plyr)
+?round_any
+#http://stackoverflow.com/questions/6461209/how-to-round-up-to-the-nearest-10-or-100-or-x
 
 # Round towards minus infinity
 round.floor = function(x, digits=0) { 
